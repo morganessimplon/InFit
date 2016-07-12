@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poplar Std';
+    src: url('police/PoplarStd.woff') format ('woff'), url('police/PoplarStd.woff2') format('woff2');
+    font-family:'Gill sans MT';
+    src: url('police/GillSansMT/33535gillsansmt.ttf');
+}
+
+
+body {
+    /*background-image: url(infit-images/body.gif);*/
+    background-position: left;
+}
+
+#page {
+    background-color: #FFF;
+    max-width: 960px;
+    width: 100%;
+    margin-left: 150px;
+}
+
+h4 {
+    font-family: 'Gill sans MT';
+}
+
+/* --------------------- Header ---------------------- */
+
+
+#bandeau {
+    width: 100%;
+    height: 50px;
+    background-color: black; 
+}
+
+#bandeau .bandeauDate {
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#bandeau .bandeauDroite {
+    width: 25px;
+    height: 25px;
+    float: right;
+    color: aqua;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: -15px;
+}
+
+#bandeau .bandeauDroite span {
+    color: white;
+}
+
+#reseaux {
+    padding-top: 50px;
+}
+
+#reseaux ul {
+    float: right;
+}
+
+#reseaux ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+#logo img {
+    float: left;
+    padding-top: 30px;
+}
+
+
+header h2 {
+    font-family: 'Poplar Std';
+    float: right;
+    margin-left: 10px;
+}
+
+
+
+
+/* ----------------- Menu Principal ----------------- */
+
+
+#menuPrincipal {
+    margin-top: 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+#menuPrincipal ul {
+    height: 42px;
+    margin-top: 25px;
+}
+
+#menuPrincipal ul li {
+    display: inline;
+    margin-left: -3px;
+    padding: 25px 10px 25px 10px;
+    background-color: black;
+}
+
+#menuPrincipal ul li:hover {
+    background-color: #00d4ff;
+}
+
+#menuPrincipal ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#recherche {
+    float: right;
+    margin-top: -53px;
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;    
+}
+
+
+#recherche2 {
+    width: 42px;
+    height: 27px;
+    background-color: #f1f1f1;
+    float: right;
+    margin-top: -47px;
+    margin-right: 25px;
+}
+
+
+
+
+
+/* --------------------- Slider ---------------------- */
+
+
+#slider {
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+
+/* ------------------- Articles ------------------- */
+
+section {
+    width: 100%;
+    height: 875px;
+    margin-top: 50px;
+}
+
+section h1 {
+    font-family: 'Poplar Std';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+article {
+    width: 42%;
+    float: right;
+    margin-right: 30px;
+}
+
+article img {
+    float: left;
+    margin-right: 30px;
+}
+
+article .date {
+    color: #00d4ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+article h4 {
+    font-family: 'Poplar Std';
+    margin-bottom: 10px;
+}
+
+article p {
+    font-family: 'Gill sans MT';
+}
+
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+
+#newsletters {
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 205px;
+    margin-top: 27px;
+}
+
+#newsletters h1 {
+    font-family: 'Poplar Std';
+    padding-top: 10px;
+}
+
+#email {
+    margin-left: 50px;
+    padding: 15px 90px 15px 30px;
+}
+
+#newsletters img {
+    margin-top: 10px;
+    margin-left: -60px;
+    position: absolute;
+}
+
+#newsletters p{
+    font-family: 'Gill sans MT';
+    width: 30px;
+    margin-left: 290px;
+    margin-top: -35px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#newsletters a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ------------------ Article Gauche ---------------- */
+
+#asideGauche {
+    width: 27%;
+    float: left;
+    margin-top: 50px;
+}
+
+#asideGauche ul {
+    padding-top: 5px;
+}
+
+#asideGauche ul li {
+    font-family: 'Gill sans MT';
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#asideGauche p {
+    font-family: 'Gill sans MT';
+}
+
+#asideGauche h4 {
+    font-family: 'Gill sans MT';
+}
+
+#asideGauche a{
+    text-decoration: none;
+    color: black;
+}
+
+video {
+    margin-left: -5px;
+}
+
+
+
+
+/* --------------- Aside Droit ----------------- */
+
+
+#asideDroit {
+    width: 27%;
+    float: right;
+    margin-top: 50px;
+}
+
+#asideDroit img {
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#asideDroit p {
+    font-family: 'Gill sans MT';
+}
+
+#preferesTexte {
+    margin-top: 5px;
+}
+
+#asideDroit a{
+    text-decoration: underline;
+    color: black;
+}
+
+#preferesTexte a {
+    text-decoration: none;
+}
+
+#preferesTexte a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ------------------ Footer ------------------ */
+
+footer {
+    margin-top: 70px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+footer p {
+    font-family: 'Gill sans MT';
+    width: 150px;
+    padding-top: 12px;
+    color: white;
+}
+
+footer nav {
+    float: right;
+}
+
+footer nav ul {
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+footer nav ul li {
+    font-size: 14px;
+    display: inline;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav ul li a:hover {
+    color: #303030;
+}
+
+
+
+
+
+
+
+
